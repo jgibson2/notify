@@ -5,10 +5,10 @@ Be sure to replace the ACCOUNT_SID and AUTH_TOK with your Twilio API key informa
 
 Usage:
 
-  python notify.py -c "COMMAND" [-m "MESSAGE"] [-q]
+    python notify.py -c "COMMAND" [-m "MESSAGE"] [-q]
   
-    -c : Command to be run; type exactly as would be input into the shell
+      -c : Command to be run; type exactly as would be input into the shell
     
-    -m : Message to be sent
+      -m : Message to be sent
     
-    -q : "quiet", don't send a message
+      -q : "quiet", don't send a message
